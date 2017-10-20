@@ -1,0 +1,325 @@
+html {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+body {
+	padding-top: 3.5rem;
+	background-color: #292626;
+}
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+p {
+	color: #ebdec2;
+}
+
+.display-4 {
+	font-weight: 00;
+}
+
+#login-modal .modal-dialog {
+	width: 350px;
+}
+
+#login-modal input[type=text], input[type=password] {
+	margin-top: 10px;
+}
+
+#register-modal .modal-dialog {
+	width: 350px;
+}
+
+#register-modal input[type=text], input[type=password] {
+	margin-top: 10px;
+}
+
+.videoDiv {
+	width: 100%;
+	max-height: 800px;
+}
+
+.videoBlock {
+	max-height: 800px;
+	width: inherit;
+	object-fit: fill;
+}
+
+.videoBlock video {
+	object-fit: fill;
+	width: 100%; 
+	max-height: 800px;
+}
+
+.videoMessage {
+	width: 100%; 
+	max-height:inherit;
+	position: relative;
+	top: -800px;
+	left: 0;
+}
+
+.jumbotron-hero {
+  	background: transparent;
+  	color: #fff;
+	margin-left: 250px;
+	padding-top: 120px;
+} 
+
+.jumbotron {
+  	background: transparent;
+  	color: #fff;
+} 
+
+.hero {
+	height: 400px;
+}
+
+.hero-text {
+	margin-bottom: 20px;
+}
+.btn-hero {
+	margin-top: 80px;
+}
+
+.header-classes {
+	margin-bottom: 25px;
+}
+
+.caption {
+    width:100%;
+    bottom: 0;
+    position: absolute;
+    background:#000;
+    background: -webkit-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -o-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: linear-gradient(to top, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+    margin:0;
+    padding:0;
+	overflow: hidden;
+	height: 100%;
+}
+
+.col-sm-6 img {
+	height: 500px;
+}
+
+.caption p {
+	max-width: 100%;
+	margin: 0;
+	padding: 10px 0;
+}
+
+.col-sm-2 {
+	overflow: hidden;
+    background-color: transparent;
+}
+
+.col-sm-2 img {
+	width: 100%;
+	height: 200px;
+	opacity: 0.8;
+    transform: scale(1.15);
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    backface-visibility: hidden;
+}
+
+.col-sm-2 img:hover {
+	opacity: 1;
+    transform: scale(1.03);
+}
+
+.classes-links:link,
+.classes-links:visited {
+	text-decoration: none;
+	border: 0;
+    border: 2px solid #504137;
+    transition: color 0.2s;
+	display: block;
+}
+
+.classes-links:hover,
+.classes-links:active {
+	color: #fff;
+	border: 2px solid gold;
+}
+
+
+.players {
+	margin-top: 5px;
+	height: 500px;
+}
+
+.col-sm-6 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.adopt {
+	background: url(img/shadow.jpg);
+	margin-top: 5px;
+}
+
+.p-adopt {
+	width: 70%;
+	margin-top: 25px;
+}
+
+.con-adopt {
+	max-width: 50%;
+	margin-left: 250px;
+}
+
+
+
+.war {
+	background: url(img/war.jpg) center;
+	margin-top: 5px;
+}
+
+.p-war {
+	width: 100%;
+	margin-top: 25px;
+	text-align: right;
+}
+
+.con-war {
+	max-width: 50%;
+	margin-right: 250px;
+}
+
+.war button {
+	margin-top: 50px;
+	background: #805d5d;
+}
+
+.survival {
+	background: url(img/survival.jpg) center;
+	margin-top: 5px;
+}
+
+.p-survival {
+	width: 70%;
+	margin-top: 25px;
+}
+
+.con-survival {
+	max-width: 70%;
+	margin-left: 250px;
+}
+
+.survival button {
+	margin-top: 50px;
+	background: #4e3b3b;
+	opacity: 0.8;
+}
+
+.survival button:hover {
+	cursor: pointer;
+	background: #805d5d;
+}
+
+.info {
+	margin-top: 5px;
+}
+
+.col-sm-4 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-sm-4 img {
+	height: 295px;	
+}
+
+.p2 {
+	font-size: 35px;
+	font-weight: 400;
+}
+
+.thumbnail2 {
+    border: 0 none;
+    box-shadow: none;
+    margin:0;
+    padding:0;
+	overflow: hidden;
+}
+
+.notes {
+	margin-top: 5px;
+	height: 500px;
+}
+
+.app {
+	background: url(img/app.jpg);
+	margin-top: 5px;
+}
+
+.p-app {
+	width: 70%;
+	margin-top: 25px;
+}
+
+.con-app {
+	max-width: 70%;
+	margin-left: 250px;
+}
+
+.button-app div {
+	display: inline-block;
+	margin-top: 25px;
+}
+
+.btn-google {
+	margin-left: 25px
+}
+
+.btn-app:hover,
+.btn-google:hover {
+	cursor: pointer;
+}
+
+.expansion {
+	margin-top: 5px;
+	height: 600px;
+}
+
+.expansion-message {
+	width: 100%; 
+	max-height:inherit;
+	position: relative;
+	top: -550px
+}
+
+.con-extension {
+	max-width: 70%;
+	margin-left: 250px;
+}
+
+.p-extension {
+	width: 60%;
+	margin-top: 25px;
+}
+
+.expansion-message .row {
+	margin-top: 50px;
+	margin-left: 250px;
+}
+
+.ext-btn-first {
+	padding-left: 0;
+	text-align: center;
+}
+
+.col-sm-3 {
+	
+}
